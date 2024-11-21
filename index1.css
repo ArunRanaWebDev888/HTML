@@ -1,0 +1,25 @@
+body {
+    background-image:url("eye.png") ;
+    background-size: cover;
+
+
+}
+.box{ 
+    background-image:url("2eye.png");
+    height: 200px;
+    width: 200px;
+    animation: move 1s ease 0s infinite normal;
+    
+    position:relative;
+     border-radius: 100px;
+     background-size:200px ;
+     margin-left:100PX;
+
+}
+@keyframes move{
+    0%{top:0px; left:0px; rotate: 0deg}
+    25%{top:0px; left:10px; rotate: 90deg}
+  50%{top:10px; left:10px; rotate: 180deg}
+    75%{top:10px; left:0px; rotate: 270deg}
+    100%{top:0px; left:0px; rotate: 360deg}
+}
